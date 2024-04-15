@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alexandria', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('../img/bg09.jpg');
+  /* background: 
+      linear-gradient(135deg,#0000 20.5%,rgba(4, 20, 38, 0.81) 0 29.5%,#0000 0) 0 16px,
+      linear-gradient( 45deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%) 32px 0,
+      linear-gradient(135deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%,rgba(4, 20, 38, 0.81) 0 67%,#0000 0),        
+      linear-gradient( 45deg,#0000 8%,rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%,rgba(4, 20, 38, 0.81) 0 67%,#0000 0 83%,rgba(4, 20, 38, 0.81) 0 92%,#0000 0),
+      #000000; */
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .basmala {
+  display: flex;
+  background-color: white;
+  margin: 50px 0;
+  width: 260px;
+  height: 60px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.hero-section .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-section .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section .content p {
+  font-weight: 500;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section .content button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section .content button:hover {
+  color: #fff;
+  background: #2b69c5;
+}
+
+@media (max-width: 768px) {
+  .hero-section .content {
+    text-align: center;
+  }
+
+  .hero-section .content :is(h2, p) {
+    max-width: 100%;
+  }
+
+  .hero-section .content h2 {
+    font-size: 2.3rem;
+    line-height: 60px;
+  }
+
+  .hero-section .content button {
+    padding: 9px 18px;
+  }
+}

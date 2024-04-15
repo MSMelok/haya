@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alexandria', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:
+    linear-gradient(135deg, #0000 20.5%, rgba(4, 20, 38, 0.81) 0 29.5%, #0000 0) 0 16px,
+    linear-gradient(45deg, #0000 8%, rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%) 32px 0,
+    linear-gradient(135deg, #0000 8%, rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%, rgba(4, 20, 38, 0.81) 0 67%, #0000 0),
+    linear-gradient(45deg, #0000 8%, rgba(4, 20, 38, 0.81) 0 17%, #0000 0 58%, rgba(4, 20, 38, 0.81) 0 67%, #0000 0 83%, rgba(4, 20, 38, 0.81) 0 92%, #0000 0),
+    #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-section {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.contact-section .box-container {
+  display: -ms-grid;
+  display: grid;
+
+  gap: 2rem;
+}
+
+.contact-section .box-container .box {
+  padding: 20px;
+}
+
+.contact-section .box-container .box h3 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #334;
+  padding: 1rem 0;
+}
+
+.contact-section .box-container .box .link {
+  display: block;
+  font-size: 18px;
+  padding: 0px 30px 0px 0px;
+  line-height: 2;
+  color: #777;
+}
+
+.contact-section .box-container .box .link i {
+  padding-right: .5rem;
+  color: #2b69c5;
+}
+
+.contact-section .box-container .box .link:hover {
+  color: #2b69c5;
+}
+
+.contact-section .box-container .box .link:hover i {
+  padding-right: 2rem;
+}
+
+.contact-section .box-container .box p {
+  font-size: 18px;
+  padding: 0px 30px 0px 0px;
+  line-height: 2;
+  color: #777;
+}
+
+.contact-section .box-container .box p span {
+  color: #2b69c5;
+}
+
+.contact-section .box-container .box .email {
+  width: 100%;
+  border: 0.2rem solid #334;
+  padding: 1.6rem 1.4rem;
+  font-size: 1.6rem;
+  color: #777;
+  margin: 1rem 0;
+}
+
+.contact-section .box-container .box .share {
+  margin-top: 2rem;
+}
+
+.contact-section .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  background: #334;
+  color: #fff;
+  margin-right: .3rem;
+  text-align: center;
+}
+
+.contact-section .box-container .box .share a:hover {
+  background: #2b69c5;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Add margin between contact info rows */
+}
+
+.map-icon {
+  display: flex;
+  align-items: center;
+}
+
+.map-icon .link {
+  margin-right: 5px; /* Add space between map icon and text */
+}
